@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/gary8_000/workspace/android.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
