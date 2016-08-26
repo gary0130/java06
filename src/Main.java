@@ -23,7 +23,7 @@ public class Main {
 	public static void encode() {
 		// 轉換成整數型
 		Scanner text = new Scanner(System.in);
-		System.out.println("請輸入要加密的文字");
+		System.out.print("請輸入要加密的文字\n>");
 		String s1 = text.nextLine(), s2 = "", s3 = "";
 		char[] ca1 = new char[s1.length()];
 		char[] decode = new char[s1.length()];
@@ -53,12 +53,12 @@ public class Main {
 
 	static void info() {
 		System.out.println("簡單加密系統");
-		System.out.println("版本:0.8.26");
+		System.out.println("版本:0.8.27");
 	}
 
 	static void type() {
 		String typex = "", typey = "";
-		System.out.println("請輸入模式(輸入9來顯示說明)");
+		System.out.print("請輸入模式(輸入9來顯示說明)\n>");
 		x = scn.nextInt();// 參數1
 
 		switch (x) {
@@ -67,7 +67,7 @@ public class Main {
 			break;
 
 		case 1:
-			System.out.println("進入偏移模式,請輸入偏移量");
+			System.out.print("進入偏移模式,請輸入偏移量\n>");
 			numb = scn.nextInt();
 			typex = "偏移模式,偏移"+numb;
 			break;
@@ -83,7 +83,7 @@ public class Main {
 			break;
 		}
 		if (x != 9) {
-			System.out.println("是否記憶模式");
+			System.out.print("是否記憶模式\n>");
 			y = scn.nextInt();// 參數2
 			
 			switch (y) {
